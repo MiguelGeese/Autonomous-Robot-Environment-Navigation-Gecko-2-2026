@@ -79,7 +79,7 @@ def main():
     
     # Check if camera died on startup
     if camera_process.poll() is not None:
-        print("CRITICAL: Camera process died on startup. Check ribbon cable!")
+        print("CRITICAL: Camera process died on startup")
         return
 
     # Wake up hardware
